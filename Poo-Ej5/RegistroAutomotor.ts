@@ -30,9 +30,13 @@ public modificarVehiculo(indice: number, vehiculoModificado: Vehiculos): void {
     }
 }
 
-public darBajaVehiculo(vehiculoBaja:Vehiculos):void {
-this.listaVehiculos= this.listaVehiculos.filter (vehiculo => vehiculo !== vehiculoBaja)
+// public darBajaVehiculo(vehiculoBaja:Vehiculos):void {
+// this.listaVehiculos= this.listaVehiculos.filter (vehiculo => vehiculo !== vehiculoBaja)
 
+// }
+
+public darBajaVehiculo(vehiculoBaja: Vehiculos): void {
+    this.listaVehiculos = this.listaVehiculos.filter(vehiculo => vehiculo.patente !== vehiculoBaja.patente);
 }
 
 

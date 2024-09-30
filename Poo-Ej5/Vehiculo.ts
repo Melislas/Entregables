@@ -2,7 +2,7 @@ export class Vehiculos {
     private tipo:string;
     private marca:string;
     private modelo: number;
-    private patente: string;
+     patente: string;
 
 constructor (tipoVehiculo:string,marcaVehiculo:string,modeloVehiculo:number,patenteVehiculo:string){
     if (tipoVehiculo == undefined && marcaVehiculo == undefined && patenteVehiculo ==undefined) {
