@@ -2,21 +2,23 @@ import {Gigante} from "./Gigante" ;
 import {Mago} from "./Mago";
 import { Luchador } from "./Luchador";
 import { Arquero } from "./Arquero";
+import { Personaje } from "./Personaje";
 
 
 
-const miGigante:Gigante= new Gigante ("Fuerza Brutal", "Mormot");
+const miGigante:Personaje= new Gigante ("Fuerza Brutal", "Mormot");
 miGigante.atacar();
 
-miGigante.getnivel();
-
-
-const miMago:Mago= new Mago("Super Hechizo", "Magius");
+const miMago:Personaje= new Mago("Super Hechizo", "Magius");
 miMago.atacar();
 
-const miLuchador:Luchador= new Luchador("Fuerza Bruta");
+const miLuchador:Personaje= new Luchador("Fuerza Bruta","luchin");
 miLuchador.atacar();
 
-const miArquero:Arquero= new Arquero ("Extrema Punteria");
+const miArquero:Personaje=new Arquero ("Extrema Punteria", "Arquer");
 miArquero.atacar();
+
+
+
+
 
