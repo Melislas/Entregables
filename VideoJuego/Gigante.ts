@@ -8,6 +8,11 @@ export class Gigante extends Personaje{
     this.nombre=nombre;
     }
 
+  getnombre():string{
+    return this.nombre
+
+}
+
    
  public atacar():void  {
         console.log( "Golpe Aplastante")

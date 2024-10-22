@@ -10,7 +10,6 @@ constructor (habilidad:string){
     this.puntosDeVida=100;
     this.mana=0;
 
-
 }
 
 gethabilidad(): string {

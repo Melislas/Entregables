@@ -7,7 +7,10 @@ export class Mago extends Personaje {
         this.nombre=nombre
 
     }
-
+    getnombre():string{
+        return this.nombre
+    
+    }
 
 
     public atacar():void  {

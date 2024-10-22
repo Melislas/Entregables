@@ -8,7 +8,10 @@ export class Luchador extends Personaje {
     
         }
    
-
+        getnombre():string{
+            return this.nombre
+        
+        }
 
 
     public atacar():void  {
